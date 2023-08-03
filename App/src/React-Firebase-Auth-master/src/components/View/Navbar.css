@@ -1,0 +1,306 @@
+.navbar {
+
+    background-color: #060b26;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .menu-bars {
+    margin-left: 0.3rem;
+    font-size: 2rem;
+    background: none;
+  }
+  .tooltip {
+    position: absolute;
+    top: -20px;
+   
+    left: calc(100% + 15px);
+    z-index: 3;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 9px 12px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: 0s;
+  }
+  .nav-menu {
+    z-index:1; /*Add this*/
+    height: 100%;
+    background-color: #060b26;
+    width: 360px;
+  
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+  
+  .nav-menu.active {
+    overflow:hidden;
+    left: 0;
+    transition: 350ms;
+  }
+  
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+  }
+  .team_input {
+    width: 80%;
+    margin-right: 30px;
+  }
+  .nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+  }
+  
+  .nav-text a:hover {
+    background-color: #1a83ff;
+  }
+  
+  .nav-menu-items {
+    width: 100%;
+  }
+  
+  .navbar-toggle {
+    background-color: #060b26;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  span {
+    margin-left: 16px;
+  }
+
+  .Placeholder {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    outline: none;
+    height: 50px;
+    width: 87%;
+    margin-left: 2%;
+  margin-top: 10%;
+    border: none;
+    border-radius: 9px;
+    transition: all 0.5s ease;
+    background: #1d1b31;
+    text-indent: 10px; 
+  }
+  .Placeholder::placeholder {
+    color: white;
+    padding-left: 1px;
+  }
+  .searchIcon {
+   top: 70px;
+    position: absolute;
+    right:330px;
+  font-size: 30px;
+  
+
+  font-size: 22px;
+  font-weight: 550;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.home_button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 26px;
+}
+.home_page {
+  right: 80px;
+  width: 100%;
+  top: 140px;
+position: absolute;
+  font-size: 26px;
+}
+.links_name{
+  color: white;
+  font-size: 26px;
+}
+.home_page:hover {
+  background: #fff;
+  color: black;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  cursor: pointer;
+  --c: goldenrod;
+  color: var(--c);
+  font-size: 16px;
+  border: 0.3em solid var(--c);
+  border-radius: 0.5em;
+  width: 12em;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  margin: 1em;
+  top: 40px;
+  left: 10px;
+}
+
+.home span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: var(--c);
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+.home:hover {
+  color: white;
+}
+
+.home:hover span {
+  transform: translateY(0) scale(2);
+}
+
+.home span:nth-child(1) {
+  --n: 1;
+}
+.Leagues-dropdown{
+  background-color: #060b26;
+  width: 100%;
+}
+#panel1a-header{
+ 
+  color: #fff;
+background-color: #060b26;
+border-bottom: 2px solid goldenrod;
+padding: 0.75rem 1rem;
+}
+
+#panel1a-header strong{
+ 
+margin-left: 140px;
+font-size: 22px;
+font-weight: 550;
+margin-top: 10px;
+
+}
+.Prem-Button{
+cursor: pointer;
+  margin-right: 126px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
+}
+.Prem-Button:hover{
+  transition: .4s;
+  color: coral;
+}
+.Bundesliga-Button{
+  cursor: pointer;
+  padding-top: 20px;
+  margin-right: 180px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
+}
+.Bundesliga-Button:hover{
+  transition: .4s;
+  color: coral;
+}
+.Liga-Button{
+  cursor: pointer;
+  padding-top: 20px;
+  margin-right: 223px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
+}
+.Liga-Button:hover{
+  transition: .4s;
+  color: coral;
+}
+.Mls-Button{
+  cursor: pointer;
+  padding-top: 20px;
+  margin-right: 255px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
+}
+.Mls-Button:hover{
+  transition: .4s;
+  color: coral;
+}
+.saved_game{
+  color: #fff;
+margin-top: -13px;
+  width: 100%;
+  cursor: pointer;
+}
+.saved-games-icon{
+position: absolute;
+right: 327px;
+top: 388px;
+  font-size: 20px;
+}
+.saved_game:hover {
+color: coral;
+  background: #fff;
+  width: 100%;
+  height: 70px;
+  transition: all 0.5s ease;
+
+}
+.Saved-span{
+right: 220px;
+  font-size: 30px;
+ position: absolute;
+ top:383px;
+}
+

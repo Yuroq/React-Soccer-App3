@@ -1,0 +1,449 @@
+#app { height: 100%; width: 1200px; background-color: pink;}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 430px;
+  height: 480px;
+  margin-top: -900px;
+  margin-left: 1900px;
+}
+.swiper-slide {
+  
+  display: flex;
+  align-items: center;
+
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-image: url('./cool-background\ \(5\).png');
+}
+
+@media (min-width: 320px) and (max-width: 999px) {
+  .swiper {
+    width: 350px;
+    height: 460px;
+    margin-top: 100px;
+    margin-left: 25px;
+  }
+  .swiper-slide {
+    
+    display: flex;
+    align-items: center;
+  
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-image: url('./cool-background\ \(5\).png');
+  }
+  
+}
+
+.player-card-background{
+margin-top: -260px;
+  width: 100%;
+height: 340px;
+  position: relative;
+  margin-left: 00px;
+}
+.player-card img{
+  position: absolute;
+  bottom: 225px;
+  left: 96px;
+}
+.player-card h3 {
+  position: absolute;
+  bottom: 345px;
+  left: 8px;
+  font-size: 40px;
+  color: #11101d;
+}
+.player-card h5 {
+  position: absolute;
+  bottom: 305px;
+  left: 9px;
+  font-size: 24px;
+  color: #11101d;
+}
+.player-card h2 {
+  position: absolute;
+  bottom: 155px;
+  left: 117px;
+  font-size: 28px;
+  font-size: 29px;
+}
+.player-card .player-card-flagLogo {
+  position: absolute;
+  bottom: 255px;
+  left: 13px;
+  font-size: 28px;
+  width: 50px;
+  height: auto;
+}
+.player-card .player-card-teamLogo {
+  position: absolute;
+  bottom: 205px;
+  
+  left: 13px;
+  font-size: 28px;
+  width: 40px;
+  height: auto;
+}
+
+.player-card-image{
+margin-left: 20px;
+  position: absolute;
+  top: 81px;
+  bottom: 0px;
+  width: 200px; 
+  height: auto;
+  mix-blend-mode: multiply;
+
+}
+.player-card-name{
+  position: absolute;
+  bottom: 125px;
+  left: 0px;
+  font-size: 38px;
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .player-card-background{
+    margin-top: -260px;
+      width: 100%;
+    height: 340px;
+      position: relative;
+      margin-left: 00px;
+    }
+    .player-card img{
+      width: 130px;
+      position: absolute;
+      bottom: 15px;
+      left: 96px;
+    }
+    .player-card h3 {
+      position: absolute;
+      bottom: 345px;
+      left: 8px;
+      font-size: 40px;
+      color: #11101d;
+    }
+    .player-card h5 {
+      position: absolute;
+      bottom: 305px;
+      left: 9px;
+      font-size: 24px;
+      color: #11101d;
+    }
+    .player-card h2 {
+      position: absolute;
+      bottom: 155px;
+      left: 117px;
+      font-size: 28px;
+      font-size: 29px;
+    }
+    .player-card .player-card-flagLogo {
+      position: absolute;
+      bottom: 255px;
+      left: 13px;
+      font-size: 28px;
+      width: 50px;
+      height: auto;
+    }
+    .player-card .player-card-teamLogo {
+      position: absolute;
+      bottom: 205px;
+      
+      left: 13px;
+      font-size: 28px;
+      width: 40px;
+      height: auto;
+    }
+    
+    .player-card-image{
+    margin-left: 20px;
+      position: absolute;
+      top: 81px;
+      bottom: 0px;
+      width: 200px; 
+      height: auto;
+      mix-blend-mode: multiply;
+    
+    }
+    .player-card-name{
+      position: absolute;
+      bottom: 115px;
+      left: 0px;
+      font-size: 38px;
+      width: 100%;
+      height: auto;
+    }
+}
+.container_goals{
+  left: 30px;
+  position: absolute;
+  top:300px;
+  color: #000;
+  font-size: 28px;
+  color:white;
+}
+.goals-score {
+  font-size: 28px;
+  position: absolute;
+  left: 140px;
+  margin-top: 84px;
+}
+.container_fouls{
+  left: 30px;
+  position: absolute;
+  top:300px;
+  color: #000;
+  font-size: 28px;
+  color:white;
+}
+.fouls-score{
+  left: 130px;
+  position: absolute;
+  top:322px;
+  color: #000;
+  font-size: 28px;
+  color:white;
+}
+.container_assists{
+  left: 30px;
+  position: absolute;
+  top:340px;
+  color: #000;
+  font-size: 28px;
+  color:white;
+}
+
+.assists-score {
+  left: 137px;
+  position: absolute;
+  top:364px;
+  color: #000;
+  font-size: 28px;
+  color:white;
+}
+.container_ratings{
+  left: 30px;
+  position: absolute;
+  top:380px;
+  color: #000;
+  font-size: 28px;
+  color:white;
+}
+.rating-score{
+  font-size: 28px;
+  position: absolute;
+  left: 140px;
+  margin-top: 165px;
+}
+.container_shots{
+  left: 250px;
+  position: absolute;
+  top:342px;
+  color: #000;
+  font-size: 28px;
+  color:white;
+}
+.shots-score{
+  font-size: 28px;
+  position: absolute;
+  left: 340px;
+  margin-top: 128px;
+}
+.container_apps{
+  left: 250px;
+  position: absolute;
+  top:300px;
+  color: #000;
+  font-size: 28px;
+  color:white;
+}
+.apps-score{
+  font-size: 28px;
+  position: absolute;
+  left: 340px;
+  margin-top: 85px;
+}
+.container_cards{
+  left: 250px;
+  position: absolute;
+  top:380px;
+  color: #000;
+  font-size: 28px;
+  color:white;
+}
+.cards-score{
+  font-size: 28px;
+  position: absolute;
+  left: 340px;
+  margin-top: 165px;
+}
+.section {
+  margin-top:320px;
+  width: 200px;
+  padding: 0px;
+ height: 150px;
+ margin-right: 0px;
+}
+.section h2{
+  margin-top:10px;
+  font-size: 22px;
+  margin-left: -13px;
+}
+.container2 {
+
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  gap: 0px;
+padding-left: 0px;
+
+}
+.section span {
+  top: 300px;
+  margin-left:-840px;
+}
+.section2 {
+  margin-top:320px;
+  width: 200px;
+  padding: 0px;
+ height: 150px;
+ margin-right: 0px;
+}
+.section2 h2{
+  margin-top:10px;
+  font-size: 22px;
+  margin-left: -13px;
+}
+
+.section2 span {
+  top: 300px;
+  margin-left:-840px;
+}
+
+@media (min-width: 320px) and (max-width: 999px) {
+  .container_fouls{
+    left: 30px;
+    position: absolute;
+    top:300px;
+    color: #000;
+    font-size: 23px;
+    color:white;
+  }
+  .fouls-score {
+    font-size: 23px;
+    position: absolute;
+    left: 110px;
+    margin-top: 90px;
+  }
+  .container_assists{
+    left: 30px;
+    position: absolute;
+    top:340px;
+    color: #000;
+    font-size: 23px;
+    color:white;
+  }
+  
+  .assists-score {
+    font-size: 23px;
+    position: absolute;
+    left: 112px;
+    margin-top: 130px;
+  }
+  .container_ratings{
+    left: 30px;
+    position: absolute;
+    top:380px;
+    color: #000;
+    font-size: 23px;
+    color:white;
+  }
+  .rating-score{
+    font-size: 23px;
+    position: absolute;
+    left: 115px;
+    margin-top: 170px;
+  }
+  .container_shots{
+    left: 217px;
+    position: absolute;
+    top:342px;
+    color: #000;
+    font-size: 23px;
+    color:white;
+  }
+  .shots-score{
+    font-size: 23px;
+    position: absolute;
+    left: 290px;
+    margin-top:133px;
+  }
+  .container_apps{
+    left: 218px;
+    position: absolute;
+    top:300px;
+    color: #000;
+    font-size: 23px;
+    color:white;
+  }
+  .apps-score{
+    font-size: 23px;
+    position: absolute;
+    left: 289px;
+    margin-top: 90px;
+  }
+  .container_cards{
+    left: 220px;
+    position: absolute;
+    top:380px;
+    color: #000;
+    font-size: 23px;
+    color:white;
+  }
+  .cards-score{
+    font-size: 23px;
+    position: absolute;
+    left: 297px;
+    margin-top: 169px;
+  }
+}

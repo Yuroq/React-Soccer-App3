@@ -1,0 +1,90 @@
+
+
+.accordion{
+  
+    background: white;
+    width: 400px;
+
+}
+.User_logo{
+    position: absolute;
+    font-size: 30px;
+fill: coral;
+top: 94px;
+left: 10px;
+}
+.User_email{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    top: 97px;
+    left: 65px;
+}
+.accordion ul,
+.accordion li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transition: .4s;
+}
+.accordion li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    background:white;
+    border-bottom: 1px solid #fff;
+    font-size: 1.4em;
+    height: 2em;
+
+}
+.accordion .accordion_content {
+    display: none;
+    height: 10%;
+    font-size: 1em;
+    padding: 0px;
+    background-image: url("./View/cool-background\ \(5\).png");
+   position: absolute;
+width: 100%;
+
+
+}
+
+.accordion li a:hover ~ .accordion_content{
+    display: block;
+    transition:2.3s;
+
+}
+
+.accordion_content:hover{
+    display: block;
+    
+}
+.update_profile{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 29.8%;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.update_profile:hover {
+    transition: 0.6s;
+    color: black;
+}
+.logOut_button{
+    background-color: white;
+    width: 200px;
+height: 30px;
+margin-left: 21%;
+    margin-top: 2em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-radius:5px ;
+}
+.logOut_button:hover{
+    transition: 0.6s;
+    color: white;
+    background-color: black;
+}

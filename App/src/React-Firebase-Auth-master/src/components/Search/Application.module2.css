@@ -1,0 +1,2189 @@
+.container {
+  background-color: #fff;
+  height: 1600px;
+  width: 100%;
+
+  margin: auto;
+  display: flex;
+  padding-top: 20px;
+
+  padding-bottom: 20px;
+}
+.notebook {
+  width: 4500px;
+
+  height: 100%;
+
+  margin-left: 30px;
+  padding-top: 20px;
+  display: none;
+  display: flex;
+  gap: 10px;
+
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+}
+
+.Results {
+  width: 1600px;
+  height: 105vh;
+  margin-left: 80px;
+
+  display: flex;
+
+  flex-direction: column;
+  background-image: url("./cool-background\ \(5\).png");
+  background-color: coral;
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .container {
+    background-color: #fff;
+    height: 1600px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+  }
+  .notebook {
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+    padding-top: 20px;
+    display: none;
+    display: flex;
+    gap: 0px;
+
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+  }
+  .Results {
+    width: 100%;
+    height: 105vh;
+    margin-left: 0px;
+
+    display: flex;
+
+    flex-direction: column;
+    background-image: url("./cool-background\ \(5\).png");
+    background-color: coral;
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+  }
+}
+
+.standings_Button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+.Upcoming_Button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.Recent_Button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+.nav {
+  width: 1600px;
+  margin-top: 240px;
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.5);
+  background-image: url("./cool-background\ \(5\).png");
+
+  height: 60px;
+  color: white;
+  border-radius: 10px;
+  margin-left: 315px;
+  display: flex;
+}
+.nav span {
+  display: flex;
+  font-weight: 600;
+  padding-left: 100px;
+  margin-left: 145px;
+  margin-top: 10px;
+
+  cursor: pointer;
+}
+.nav span p {
+  padding-left: 90px;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .standings_Button {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .Upcoming_Button {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .Recent_Button {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .nav {
+    width: 100%;
+    margin-top: 240px;
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.5);
+    background-image: url("./cool-background\ \(5\).png");
+
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+  .nav span {
+    font-size: 10px;
+    font-weight: 200;
+    padding-left: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+
+    cursor: pointer;
+  }
+  .nav span p {
+    padding-left: 0px;
+  }
+}
+.fixtures_info {
+  width: 1500px;
+  background-image: url("./cool-background\ \(5\).png");
+
+  height: 50px;
+
+  display: flex;
+  margin-top: 0px;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 1;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .fixtures_info {
+    display: none;
+  }
+}
+.fixtures_info h3 {
+  position: absolute;
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+  font-weight: 400;
+}
+.fixtures_info_Position {
+  margin-left: 3px;
+}
+.fixtures_info_Club {
+  margin-left: 455px;
+}
+.fixtures_info_Played {
+  margin-left: 1085px;
+}
+
+.fixtures_info_Won {
+  margin-left: 1270px;
+}
+.fixtures_info_Drawn {
+  margin-left: 1430px;
+}
+.fixtures_info_Lost {
+  margin-left: 1576px;
+}
+.fixtures_info_GD {
+  margin-left: 1726px;
+}
+
+.fixtures_info_Points {
+  margin-left: 1971px;
+}
+
+.upcoming_fixtures_info {
+  width: 1500px;
+  background-image: url("./cool-background\ \(5\).png");
+
+  height: 50px;
+  margin-left: 0;
+  display: flex;
+  margin-top: 10px;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 1;
+}
+.upcoming_fixtures_info h3 {
+  position: absolute;
+  font-size: 25px;
+  margin-top: -8px;
+  color: white;
+  font-weight: 400;
+}
+.upcoming_fixtures_home {
+  margin-left: 1030px;
+}
+.upcoming_fixtures_date {
+  margin-left: 650px;
+}
+.upcoming_fixtures_away {
+  margin-left: 145px;
+}
+.upcoming_fixtures_venue {
+  margin-left: 1680px;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .upcoming_fixtures_info {
+    width: 100%;
+    background-image: url("./cool-background\ \(5\).png");
+
+    height: 35px;
+    margin-left: 0;
+    display: flex;
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+    opacity: 1;
+  }
+  .upcoming_fixtures_info h3 {
+    position: absolute;
+    font-size: 15px;
+    margin-top: 5px;
+    color: white;
+    font-weight: 400;
+  }
+  .upcoming_fixtures_home {
+    margin-left: 50px;
+  }
+  .upcoming_fixtures_date {
+    margin-left: 170px;
+  }
+  .upcoming_fixtures_away {
+    margin-left: 235px;
+  }
+}
+.Saved_fixtures_info {
+  width: 1500px;
+  background-image: url("./cool-background\ \(5\).png");
+
+  height: 50px;
+  margin-left: 0;
+  display: flex;
+  margin-top: 0px;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 1;
+}
+.Saved_fixtures_info h3 {
+  position: absolute;
+  font-size: 25px;
+  margin-top: -8px;
+  color: white;
+  font-weight: 400;
+}
+
+.Saved_fixtures_date {
+  margin-left: 605px;
+}
+.Saved_fixtures_away {
+  position: absolute;
+
+  margin-top: 32px;
+  margin-left: 939px;
+  font-size: 20px;
+}
+.Saved_fixtures_venue {
+  margin-left: 1630px;
+}
+
+.recent_fixtures_info {
+  width: 1500px;
+  background-image: url("./cool-background\ \(5\).png");
+  background-color: coral;
+  height: 50px;
+  margin-left: 0;
+  display: flex;
+  margin-top: 0px;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 1;
+}
+
+.recent_fixtures_info h3 {
+  position: absolute;
+  font-size: 25px;
+  margin-top: 18px;
+  color: white;
+  font-weight: 400;
+}
+
+.recent_fixtures_home_index {
+  margin-left: 40px;
+}
+.recent_fixtures_score_index {
+  margin-left: 343px;
+}
+.recent_fixtures_away_index {
+  margin-left: 640px;
+}
+.recent_fixtures_venue_index {
+  margin-left: 1485px;
+}
+
+@media (min-width: 320px) and (max-width: 999px) {
+  .recent_fixtures_info {
+    width: 100%;
+    height: 10px;
+    opacity: 1;
+  }
+  .recent_fixtures_info h3 {
+    position: absolute;
+    font-size: 15px;
+    margin-top: 18px;
+    color: white;
+    font-weight: 400;
+  }
+  .recent_fixtures_home_index {
+    margin-left: 30px;
+  }
+  .recent_fixtures_score_index {
+    margin-left: 180px;
+  }
+  .recent_fixtures_away_index {
+    margin-left: 270px;
+  }
+  .recent_fixtures_venue_index {
+    display: none;
+  }
+}
+
+.fixtures {
+  width: 2230px;
+  height: 100%;
+  min-height: 1000px;
+  margin-top: 20px;
+  margin-left: 2.9%;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  background-image: url("./cool-background\ \(5\).png");
+
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-weight: 100;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.fixturesInfo {
+  width: 1500px;
+  background-image: url("./cool-background\ \(5\).png");
+  height: 50px;
+  margin-left: 0;
+  display: flex;
+  margin-top: 0px;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 0;
+}
+.fixtures_info h3 {
+  position: absolute;
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+  font-weight: 400;
+}
+
+.Li_styling {
+  margin-top: 38px;
+  font-size: 25px;
+  justify-content: space-between;
+  margin-left: 60px;
+  display: flex;
+
+  background-color: var(--darkest);
+
+  border-radius: 1rem;
+  /* margin-bottom: 1rem; */
+}
+.Standings_rank {
+  position: absolute;
+  font-size: 40px;
+  right: 2350px;
+  bottom: 0px;
+  top: 245px;
+  left: 0px;
+  font-weight: 500;
+}
+.Standings_team_logo {
+  margin-left: 70px;
+  width: 70px;
+  height: auto;
+  position: absolute;
+  margin-top: -30px;
+}
+.Standings_list {
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+.Standings_list span {
+  font-size: 25px;
+  display: flex;
+
+  margin-right: 0px;
+  font-weight: 600;
+}
+
+.aligned {
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+
+  cursor: pointer;
+
+  height: 30px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  display: flex;
+}
+.aligned span {
+  padding: 40px;
+}
+
+.Line_standings {
+  width: 100%;
+  color: aliceblue;
+  padding: 20px;
+}
+.team_logo {
+  width: 20px;
+  height: auto;
+  position: absolute;
+  margin-top: -35px;
+}
+.standings_list_team_name {
+  position: absolute;
+  margin-top: -0px;
+  margin-left: 320px;
+  font-weight: 700;
+  font-size: 28px;
+}
+.games_rank {
+  font-size: 30px;
+  position: absolute;
+  margin-left: -2320px;
+  margin-top: -7px;
+  right: 0;
+  left: 0;
+  font-weight: 550;
+}
+.games_played {
+  font-size: 30px;
+  position: absolute;
+  margin-left: -150px;
+  right: 0;
+  left: 0;
+  font-weight: 550;
+}
+.games_Winned {
+  font-size: 30px;
+  position: absolute;
+  margin-left: 210px;
+  right: 0;
+  left: 0;
+  font-weight: 550;
+}
+.games_Tie {
+  font-size: 30px;
+  position: absolute;
+  margin-left: 546px;
+  right: 0;
+  left: 0;
+  font-weight: 550;
+}
+.games_Loosed {
+  font-size: 30px;
+  position: absolute;
+  margin-left: 810px;
+  right: 0;
+  left: 0;
+  font-weight: 550;
+}
+.games_Gd {
+  font-size: 30px;
+  position: absolute;
+  margin-left: 1106px;
+  right: 0;
+  left: 0;
+  font-weight: 550;
+}
+.games_Points {
+  font-size: 40px;
+  position: absolute;
+  margin-left: 1622px;
+  right: 0;
+  left: 0;
+  font-weight: 550;
+}
+
+@media (min-width: 320px) and (max-width: 999px) {
+  .fixtures {
+    width: 100%;
+    height: 100%;
+  }
+  .standings_list_team_name {
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 23px;
+  }
+  .Standings_team_logo {
+    margin-left: -30px;
+    width: 30px;
+    height: auto;
+    position: absolute;
+    margin-top: -30px;
+  }
+  .games_rank {
+    font-size: 14px;
+    position: absolute;
+    margin-left: -320px;
+    margin-top: -57px;
+    right: 0;
+    left: 0;
+    font-weight: 550;
+  }
+  .games_played {
+    font-size: 14px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -55px;
+    right: 0;
+    left: 0;
+    font-weight: 450;
+  }
+  .games_Winned {
+    font-size: 14px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -55px;
+    right: 0;
+    left: 0;
+    font-weight: 450;
+  }
+  .games_Tie {
+    font-size: 14px;
+    position: absolute;
+    margin-left: 135px;
+    margin-top: -55px;
+    right: 0;
+    left: 0;
+    font-weight: 450;
+  }
+  .games_Loosed {
+    font-size: 14px;
+    position: absolute;
+    margin-left: 205px;
+    margin-top: -55px;
+    right: 0;
+    left: 0;
+    font-weight: 450;
+  }
+  .games_Gd {
+    font-size: 14px;
+    position: absolute;
+    margin-left: 270px;
+    margin-top: -55px;
+    right: 0;
+    left: 0;
+    font-weight: 450;
+  }
+  .games_Points {
+    font-size: 14px;
+    position: absolute;
+    margin-left: 330px;
+    margin-top: -55px;
+    right: 0;
+    left: 0;
+    font-weight: 450;
+  }
+}
+
+.Line_standings {
+  width: 100%;
+  color: aliceblue;
+  padding: 20px;
+}
+
+.fixtures_home_logo {
+  position: absolute;
+  left: 40px;
+  width: 50px;
+  height: auto;
+
+  top: 26px;
+}
+.fixtures_home {
+  position: relative;
+  margin-top: 18px;
+  margin-left: 109px;
+  font-size: 20px;
+}
+.fixtures_away_logo {
+  position: absolute;
+  left: 870px;
+  width: 60px;
+  height: auto;
+  margin-top: 33px;
+}
+.fixtures_away {
+  position: absolute;
+  left: 1020px;
+  margin-top: 40px;
+  font-weight: 700;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .fixtures_away_logo {
+    position: absolute;
+    left: 238px;
+    width: 30px;
+    height: auto;
+    margin-top: 10px;
+  }
+  .fixtures_away {
+    position: absolute;
+    left: 280px;
+    margin-top: 14px;
+    font-weight: 700;
+  }
+}
+.square {
+  height: 60px;
+  width: 100px;
+  margin-top: 30px;
+  background-color: transparent;
+  border: 3px solid black;
+  position: absolute;
+  left: 700px;
+}
+.square p {
+  position: absolute;
+  margin-left: 0.8em;
+  margin-top: 1.3em;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .fixtures_home {
+    position: relative;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 19px;
+    font-size: 13px;
+  }
+  .square {
+    height: 45px;
+    width: 70px;
+    margin-top: 3px;
+    background-color: transparent;
+    border: 1px solid black;
+    position: absolute;
+    left: 160px;
+  }
+  .square p {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 12px;
+  }
+}
+.upcoming_fixtures_venue_icon {
+  position: absolute;
+  left: 1490px;
+  margin-top: 2.9em;
+  width: 50px;
+  height: auto;
+}
+.upcoming_fixtures_venue_name {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 2em;
+  margin-bottom: 10px;
+  position: absolute;
+  margin-left: 1550px;
+}
+.Saved_fixtures_home {
+  position: absolute;
+  margin-top: 33px;
+  margin-left: 109px;
+  font-size: 20px;
+}
+.Saved_fixtures_venue_icon {
+  position: absolute;
+  left: 1370px;
+  margin-top: 30px;
+  width: 50px;
+  height: auto;
+}
+.Saved_fixtures_venue_name {
+  width: 100%;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  position: absolute;
+  margin-left: 660px;
+}
+.league_standings_fixtures {
+  display: flex;
+}
+
+.league_standings {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.league_standings_fixtures h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.league_standings_fixtures_home_image {
+  position: absolute;
+  width: 60px;
+  margin-top: 32px;
+  margin-left: 500px;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .league_standings_fixtures h3 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .league_standings_fixtures_home_image {
+    position: absolute;
+    width: 30px;
+    margin-top: 12px;
+    margin-left: 110px;
+  }
+}
+.Saved_standings_fixtures {
+  display: flex;
+}
+
+.Saved_standings {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.Saved_standings_fixtures h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.Saved_standings_fixtures_home_image {
+  position: absolute;
+  width: 60px;
+  margin-top: 27px;
+  margin-left: 450px;
+}
+.Saved_away_logo {
+  position: absolute;
+  left: 775px;
+  width: 60px;
+  height: auto;
+  margin-top: 29px;
+}
+
+.Saved_away {
+  position: absolute;
+  left: 1020px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.Upcoming_fixtures_line {
+  margin-top: 20px;
+  width: 100%;
+  right: 20px;
+  position: relative;
+}
+.Upcoming_fixtures_home {
+  position: relative;
+  margin-top: 39px;
+  margin-left: 109px;
+  font-size: 10px;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .Upcoming_fixtures_line {
+    margin-top: 0px;
+  }
+}
+.Recent_fixtures_line {
+  width: 100%;
+  right: 20px;
+  margin-top: 90px;
+}
+.recent_fixtures_home {
+  font-weight: bold;
+  width: 80px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-right: 16px;
+  font-size: 30px;
+}
+.recent_fixtures_home_img {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -865px;
+  margin-bottom: 0px;
+}
+.recent_fixtures_scoreboard {
+  background-color: transparent;
+  border: 3px solid black;
+  width: 88px;
+  height: 60px;
+  display: flex;
+  position: relative;
+  bottom: -42px;
+  left: 325px;
+}
+.recent_fixtures_scoreboard p {
+  position: relative;
+  font-size: 30px;
+  margin: auto;
+  font-weight: bold;
+}
+
+.vertical_line {
+  border-left: 3px solid gray;
+  height: 45px;
+  margin-left: 9px;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+.goals_away {
+  right: 4px;
+}
+.recent_fixtures_away_img {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  left: 609px;
+  margin-top: -14px;
+}
+.recent_fixtures_away {
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  left: 700px;
+  margin-top: -13px;
+}
+.recent_fixtures_venue_icon {
+  position: absolute;
+  left: 1360px;
+  margin-top: -15px;
+  width: 50px;
+  height: auto;
+  color: black;
+}
+.recent_fixtures_venue {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  position: absolute;
+  margin-left: 1370px;
+}
+.recent_fixtures_league_img {
+  width: 50px;
+  position: absolute;
+  left: 2150px;
+  margin-top: -13px;
+  height: auto;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .Recent_fixtures_line {
+    width: 100%;
+    right: 20px;
+    margin-top: 90px;
+  }
+  .recent_fixtures_home {
+    font-weight: bold;
+    width: 80px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 59px;
+    margin-right: 16px;
+    font-size: 20px;
+  }
+  .recent_fixtures_home_img {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -65px;
+    margin-bottom: 0px;
+  }
+  .recent_fixtures_scoreboard {
+    background-color: transparent;
+    border: 1.5px solid black;
+    width: 58px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    bottom: -52px;
+    left: 165px;
+  }
+  .recent_fixtures_scoreboard p {
+    bottom: 2px;
+    position: relative;
+    font-size: 26px;
+    margin: auto;
+    font-weight: bold;
+  }
+
+  .vertical_line {
+    border-left: 2px solid white;
+    height: 31px;
+    margin-left: 9px;
+    margin-top: 4px;
+    margin-right: 10px;
+  }
+  .goals_away {
+    right: 2px;
+  }
+  .recent_fixtures_away_img {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    left: 252px;
+    margin-top: 14px;
+  }
+  .recent_fixtures_away {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 300px;
+    margin-top: 14px;
+  }
+  .recent_fixtures_venue_icon {
+    position: absolute;
+    left: 80px;
+    margin-top: 60px;
+    width: 30px;
+    height: auto;
+    color: #fff;
+  }
+  .recent_fixtures_venue {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    position: absolute;
+    margin-left: 25px;
+    width: 100%;
+  }
+  .recent_fixtures_league_img {
+    width: 50px;
+    position: absolute;
+    left: 2150px;
+    margin-top: -13px;
+    height: auto;
+  }
+}
+/* 
+
+  Search Page */
+.banner_background {
+  background-image: url("./cool-background\ \(5\).png");
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  filter: brightness(80%);
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .banner_background {
+    height: 460px;
+  }
+}
+.first_txt {
+  position: absolute;
+  top: 0px;
+  left: 190px;
+  width: 250px;
+}
+
+.stadium_logo {
+  margin-top: -18px;
+  margin-left: 1667px;
+  width: 670px;
+  height: 360px;
+}
+.gfg2 {
+  position: absolute;
+  bottom: 700px;
+}
+.second_txt {
+  position: absolute;
+  bottom: 0px;
+}
+.team_emblem_background {
+  margin-top: -50px;
+
+  margin-left: 71px;
+  width: 400px;
+  height: auto;
+}
+.team_logo {
+  position: absolute;
+  height: auto;
+  right: 0;
+  left: 150px;
+  top: 45px;
+  width: 230px;
+}
+.team_name {
+  position: absolute;
+  bottom: 970px;
+  left: 534px;
+  font-size: 57px;
+  color: white;
+}
+
+.stadium_name2 {
+  color: white;
+  font-weight: 600;
+
+  bottom: 185px;
+  position: absolute;
+  display: flex;
+  font-size: 50px;
+}
+.stadium_name2 p {
+  color: white;
+  font-weight: 600;
+  left: 600px;
+  bottom: 20px;
+  position: absolute;
+  display: flex;
+  font-size: 30px;
+}
+.stadium_name_icon {
+  position: absolute;
+  margin-top: -126px;
+  right: 0;
+  margin-left: 520px;
+  font-size: 50px;
+}
+.stadium_icon_name {
+  color: white;
+  font-weight: 600;
+  left: 600px;
+  bottom: 60px;
+  position: absolute;
+  display: flex;
+  font-size: 30px;
+  width: 230px;
+  font-weight: 300;
+}
+.est_name2 {
+  position: absolute;
+  display: flex;
+  color: white;
+  font-weight: 600;
+  left: 13px;
+  bottom: 160px;
+  position: absolute;
+  display: flex;
+  font-size: 22px;
+}
+.est_icon_name {
+  color: white;
+  font-weight: 600;
+  left: 590px;
+  bottom: 15px;
+  position: absolute;
+  display: flex;
+  font-size: 30px;
+  width: 230px;
+  font-weight: 300;
+}
+.league_form_name {
+  color: white;
+  font-weight: 600;
+  left: 405px;
+  bottom: 47px;
+  position: absolute;
+  display: flex;
+  font-size: 30px;
+  width: 230px;
+  font-weight: 300;
+}
+.league_name2 img {
+  width: 30px;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+}
+
+@media (min-width: 320px) and (max-width: 999px) {
+  .gfg2 {
+    position: absolute;
+    bottom: 00px;
+  }
+  .second_txt {
+    position: absolute;
+    bottom: 0px;
+  }
+  .team_emblem_background {
+    top: 50px;
+    margin-bottom: 490px;
+    margin-left: 70px;
+    width: 250px;
+    height: auto;
+  }
+  .team_logo {
+    position: absolute;
+    height: auto;
+    right: 0;
+    left: 127px;
+    top: 45px;
+    width: 130px;
+  }
+
+  .team_name {
+    width: 1000px;
+    position: absolute;
+    bottom: 480px;
+    left: -309px;
+    font-size: 27px;
+    color: white;
+  }
+
+  .stadium_name2 {
+    color: white;
+    font-weight: 600;
+    left: -505px;
+    bottom: 385px;
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+  }
+  .stadium_name2 p {
+    color: white;
+    font-weight: 600;
+    left: 700px;
+    bottom: 20px;
+    position: absolute;
+    display: flex;
+    font-size: 10px;
+  }
+  .stadium_name_icon {
+    position: absolute;
+
+    right: 0;
+
+    font-size: 30px;
+    left: 45px;
+    bottom: 56px;
+  }
+}
+.league_name2 p {
+  position: relative;
+  top: 30px;
+  left: 595px;
+  font-size: 36px;
+  color: white;
+  font-weight: 400;
+}
+.est_name_icon {
+  position: absolute;
+  top: -100px;
+  right: 0;
+  left: 520px;
+  font-size: 50px;
+}
+
+.stadium_name_icon {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  left: 10px;
+  font-size: 50px;
+}
+.form_icon {
+  color: white;
+  position: absolute;
+  top: -90px;
+  right: 0;
+  left: 330px;
+  font-size: 50px;
+  font-weight: 300;
+}
+.Recent_form2 {
+  left: -629px;
+  bottom: 220px;
+  position: absolute;
+  display: flex;
+}
+.Recent_form2 img {
+  width: 30px;
+}
+.Recent_form2 p {
+  position: relative;
+  top: 35px;
+  left: 400px;
+  font-size: 26px;
+  color: white;
+  font-weight: 400;
+}
+
+@media (min-width: 320px) and (max-width: 999px) {
+  .form_icon {
+    color: white;
+    position: absolute;
+    top: -90px;
+    right: 0;
+    left: 30px;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .Recent_form2 {
+    left: -129px;
+    bottom: 220px;
+    position: absolute;
+    display: flex;
+  }
+  .Recent_form2 img {
+    width: 30px;
+  }
+  .Recent_form2 p {
+    position: relative;
+    top: 35px;
+    left: 400px;
+    font-size: 26px;
+    color: white;
+    font-weight: 400;
+  }
+}
+.middle_section {
+  background-color: transparent;
+
+  width: 100%;
+  min-height: 1200px;
+  height: 100%;
+}
+.search_recent_games {
+  width: 2230px;
+  height: 100%;
+  min-height: 1000px;
+  margin-top: 20px;
+  margin-left: 2.9%;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  background-image: url("./cool-background\ \(5\).png");
+
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-weight: 100;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* .search_recent_fixtures {
+  color: #fff;
+  padding: 30px;
+  position: relative;
+  bottom: -120;
+} */
+
+/* .search_recent_fixtures_home_team {
+  top: 0px;
+  bottom: 0px;
+  margin-top: 20px;
+} */
+
+/* .home_logo2 {
+  position: absolute;
+  left: 113px;
+  height: auto;
+  width: 42.5px;
+  margin-top: 5px;
+} */
+/* .away_logo2 {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 40px;
+
+  height: auto;
+  width: 42.5px;
+} */
+
+.Time {
+  width: 80px;
+  height: 50px;
+
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  text-align: center;
+  padding-top: 0px;
+  margin-bottom: 30px;
+  display: flex;
+  position: absolute;
+  left: 180px;
+}
+.Time h5 {
+  margin: auto;
+  margin-top: 8px;
+  font-size: 25px;
+}
+
+.time_score {
+  display: flex;
+}
+/* 
+.vertical_line2 {
+  border-left: 3px solid gray;
+  height: 30px;
+  padding: 8px;
+  margin-left: 17px;
+  margin-top: -6px;
+} */
+
+/* .search_Recent_fixtures_away {
+  position: absolute;
+  top: 4px;
+  margin-right: 0px;
+  margin-left: -25px;
+  left: 372px;
+  font-size: 30px;
+  font-weight: bold;
+} */
+
+/* .away_logo2 {
+  position: absolute;
+  margin-top: 5px;
+  left: 245px;
+
+  height: auto;
+  width: 42.5px;
+} */
+
+.team_stats {
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  display: flex;
+  height: 200px;
+  width: 90%;
+  position: relative;
+  border-color: black;
+  border-bottom: 30px;
+
+  top: -440px;
+
+  left: 1050px;
+}
+
+.stats_1 {
+  position: absolute;
+  top: 45px;
+  left: 3.3em;
+  font-size: 50px;
+}
+.stats_2 {
+  position: absolute;
+  top: 45px;
+  left: 567px;
+  font-size: 50px;
+}
+.stats_wins {
+  position: absolute;
+  top: 120px;
+  left: 559px;
+  font-size: 32px;
+}
+.stats_Played {
+  position: absolute;
+  top: 3.8em;
+  left: 2.3em;
+  font-size: 32px;
+}
+
+.info {
+  text-align: left;
+  background-color: white;
+  width: 710px;
+  border-radius: 0px;
+  height: 600px;
+
+  margin-left: 0px;
+}
+.info h2 {
+  font-size: 38px;
+  margin-left: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.info span {
+  text-align: left;
+  /* padding-top: 25px;
+      margin-bottom:30px ; */
+  margin-left: 5px;
+  font-weight: 400;
+  font-size: 33px;
+  font-weight: 600;
+}
+.info span p {
+  font-weight: 700;
+  margin-top: -37px;
+  position: absolute;
+  padding-left: 610px;
+  font-size: 35px;
+}
+
+.stat_padding {
+  padding-top: 50px;
+}
+
+.line_1 {
+  border-left: 7px solid rgb(203, 157, 203);
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 426px;
+}
+.line_2 {
+  border-left: 7px solid rgb(203, 157, 203);
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 765px;
+}
+
+.line_3 {
+  border-left: 7px solid rgb(203, 157, 203);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 1105px;
+}
+.stats_3 {
+  position: absolute;
+  top: 45px;
+  left: 923px;
+  font-size: 50px;
+}
+.stats_losses {
+  position: absolute;
+  top: 120px;
+  left: 889px;
+  font-size: 32px;
+}
+.line_4 {
+  border-left: 7px solid rgb(203, 157, 203);
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 1520px;
+}
+.stats_4 {
+  position: absolute;
+  top: 45px;
+  left: 1275px;
+  font-size: 50px;
+}
+.stats_5 {
+  position: absolute;
+  top: 45px;
+  left: 1673px;
+  font-size: 50px;
+}
+.stats_clean_sheets {
+  position: absolute;
+  top: 120px;
+  left: 1615px;
+  font-size: 32px;
+}
+.stats_Goals_conceeded {
+  position: absolute;
+  top: 120px;
+  left: 1180px;
+  font-size: 32px;
+}
+
+.grid_container {
+  top: 0px;
+  margin-top: 585px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-left: -765px;
+  gap: 10px;
+}
+
+.info_line_1 {
+  background-color: purple;
+  height: 10px;
+}
+
+.Goals_line {
+  height: 2px;
+  background-color: grey;
+}
+.info_line_2 {
+  background-color: purple;
+  height: 10px;
+}
+
+.info_line_3 {
+  background-color: purple;
+  height: 10px;
+}
+.grid_item {
+  margin-left: -330px;
+  margin-top: 150px;
+  padding: 180px;
+  font-size: 24px;
+  text-align: center;
+}
+.grid_item img {
+  width: 360px;
+  height: auto;
+}
+
+.team_section {
+  background-color: orange;
+  margin-top: 80px;
+  width: 100%;
+  height: 3900px;
+}
+
+.players_grid {
+  top: 00px;
+  margin-top: 00px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-left: 60px;
+  gap: 10px;
+
+  height: 100%;
+}
+
+.player_grid {
+  padding: 20px;
+  font-size: 24px;
+
+  height: auto;
+}
+.squad {
+  position: relative;
+}
+
+.player_background_image {
+  height: 240px;
+  width: 490px;
+  object-fit: cover;
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.5);
+}
+
+.player_number {
+  position: absolute;
+  top: 10px;
+  left: 170px;
+  font-weight: 400;
+}
+.player_name {
+  position: absolute;
+  top: 78px;
+  padding-left: 130px;
+  font-weight: 800;
+  font-size: 22px;
+  width: 196px;
+  line-height: 24px;
+}
+.player_position {
+  position: absolute;
+  top: 128px;
+  left: 170px;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.player_info img {
+  position: absolute;
+  top: 70px;
+  left: 420px;
+  width: 170px;
+  height: auto;
+  mix-blend-mode: darken;
+  opacity: 1;
+}
+
+.player_picture {
+  mix-blend-mode: multiply;
+}
+
+.Recent_fixtures_home_name {
+  position: absolute;
+  left: 35px;
+  font-size: 30px;
+  top: 6px;
+}
+
+.player_standings_info {
+  display: flex;
+}
+.player_standings_info h3 {
+  margin-top: 10px;
+  color: #fff;
+}
+.player_standings_info_rank {
+  margin-left: 15px;
+}
+.player_standings_info_player {
+  margin-left: 85px;
+}
+
+.player_standings_info_team {
+  margin-left: 360px;
+}
+
+.player_standings_info_nationality {
+  margin-left: 235px;
+}
+
+.player_standings_info_stat {
+  margin-left: 276px;
+}
+.player_standings_info_position {
+  margin-left: 246px;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .player_standings_info h3 {
+    margin-top: 10px;
+    color: #fff;
+  }
+  .player_standings_info_rank {
+    display: none;
+  }
+  .player_standings_info_player {
+    margin-left: 43px;
+    font-size: 15px;
+  }
+
+  .player_standings_info_team {
+    margin-left: 80px;
+    font-size: 15px;
+  }
+
+  .player_standings_info_nationality {
+    display: none;
+  }
+
+  .player_standings_info_stat {
+    margin-left: 42px;
+    font-size: 15px;
+  }
+  .player_standings_info_position {
+    margin-left: 58px;
+    font-size: 15px;
+  }
+}
+.top_scorers_standings {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  counter-reset: apples;
+}
+.Player_standings_line {
+  width: 100%;
+}
+.scorersList::before {
+  position: absolute;
+  margin-top: 22px;
+  margin-left: -926px;
+  content: counter(apples);
+  counter-increment: apples;
+  font-family: sans-serif;
+  color: pink;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.goal_standings {
+  display: flex;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.goal_standings h2 {
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
+}
+/* .goal-standings p{
+  margin-left: 40px;
+  position: absolute;
+
+} */
+.goal_standings_team {
+  position: absolute;
+  margin-left: 420px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 30px;
+}
+.goal_standings_country {
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 739px;
+  color: #fff;
+  font-size: 30px;
+}
+.Goal_standings_team_logo {
+  position: absolute;
+  margin-left: 350px;
+  width: 40px;
+  height: auto;
+  margin-top: 20px;
+}
+.Goal_standings_country_logo {
+  position: relative;
+  left: 840px;
+  right: 0px;
+  width: 40px;
+  height: auto;
+  top: 162px;
+  bottom: 0px;
+}
+
+.goal_standings_goals {
+  position: absolute;
+  left: 1606px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 22px;
+}
+.goal_standings_position {
+  position: absolute;
+  left: 1240px;
+  margin-top: 21px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.goal_standings_line {
+  margin-top: 10px;
+  height: 1px;
+  color: gray;
+  background-color: gray;
+  border: 0;
+  width: 96%;
+  margin-left: 25px;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .goal_standings h2 {
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    margin-left: -40px;
+  }
+  .goal_standings_team {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px;
+  }
+  .Goal_standings_team_logo {
+    position: absolute;
+    margin-left: 70px;
+    width: 30px;
+    height: auto;
+    margin-top: 14px;
+  }
+
+  .goal_standings_country {
+    display: none;
+  }
+  .goal_standings_goals {
+    position: absolute;
+    left: 91%;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 14px;
+  }
+  .goal_standings_position {
+    position: absolute;
+    left: 274px;
+    margin-top: 21px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .goal_standings_line {
+    margin-top: 10px;
+    height: 1px;
+    color: gray;
+    background-color: gray;
+    border: 0;
+    width: 96%;
+    margin-left: 10px;
+  }
+}
+.accordion {
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 300px;
+}
+
+.accordion_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  width: 122.5%;
+
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #54a0ff;
+  color: white;
+  background-color: #11101d;
+  cursor: pointer;
+}
+.accordion_header strong {
+  font-size: 22px;
+  font-weight: 550;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.accordion_header.active {
+  background-color: black;
+  color: white;
+}
+
+.accordion_header.active h4 {
+  transform: rotate(180deg);
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion_body {
+  width: 74.5%;
+  padding: 0 1rem;
+  background-color: #f3f3f3;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.accordion_body h6 {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.accordion_body.active {
+  max-height: 10rem;
+  padding: 1rem;
+  width: 104.5%;
+}
+
+.saved_Games {
+  position: absolute;
+  bottom: -130px;
+  width: 1962px;
+  height: 100%;
+  min-height: 90vh;
+  margin-left: 10px;
+
+  flex-direction: column;
+  background-image: url("./cool-background\ \(5\).png");
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.Saved_Games_noGames_error {
+  margin-top: 30%;
+  font-size: 3em;
+}
+.Saved_home_logo {
+  position: absolute;
+  left: 590px;
+  width: 60px;
+  height: auto;
+
+  margin-top: 30px;
+}
+.Saved_home {
+  position: relative;
+  top: 21px;
+  margin-left: 130px;
+  margin-right: 1400px;
+  font-size: 27px;
+  color: white;
+}
+
+.Saved_away {
+  position: absolute;
+  left: 1020px;
+  margin-top: -42px;
+  font-weight: 700;
+  font-size: 27px;
+  color: white;
+}
+
+.Saved_square {
+  height: 60px;
+  width: 100px;
+  margin-top: 26px;
+  background-color: transparent;
+  border: 3px solid black;
+  position: absolute;
+  left: 590px;
+}
+.Saved_square p {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 22px;
+}
+
+.saved_lines {
+  margin-top: 60px;
+}
+.Matches_played_icons {
+  position: absolute;
+  left: 3em;
+  font-size: 55px;
+  top: 12px;
+}
+
+.Wins_icons {
+  position: absolute;
+  left: 565px;
+  font-size: 55px;
+  top: 12px;
+}
+.Losses_icons {
+  position: absolute;
+  left: 910px;
+  font-size: 55px;
+  top: 12px;
+}
+.Conceeded_icons {
+  position: absolute;
+  left: 1277px;
+  font-size: 55px;
+  top: 12px;
+}
+.Clean_sheet_icons {
+  position: absolute;
+  left: 1673px;
+  font-size: 55px;
+  top: 12px;
+}
+
+.Saved_Delete_Icon {
+  position: absolute;
+  font-size: 30px;
+  margin-top: 28px;
+}
+.Saved_fixtures_line {
+  margin-top: 120px;
+}
+
+/* Search Page Navbar */
+
+.search_page_navbar {
+  margin-top: 50px;
+  width: 60%;
+  height: 70px;
+  background-image: url("./cool-background\ \(5\).png");
+  margin-left: 37em;
+  box-shadow: 10px 10px 24px 0px #00000080;
+}
+.search_page_navbar button {
+  border-radius: 10px;
+  background-color: white;
+  width: 10%;
+  margin-right: 10em;
+  margin-left: 5em;
+  height: 50px;
+  margin-top: 10px;
+}
+.search_page_navbar button:hover {
+  background-color: rgb(237, 169, 144);
+}
+.Navbar_stats {
+  width: 50px;
+}
+.Navbar_fixtures {
+}
+.Navbar_Lineup {
+}
+.Navbar_clicked {
+  background-color: coral;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .search_page_navbar {
+    margin-top: 1em;
+    width: 90%;
+    height: 70px;
+    background-image: url("./cool-background\ \(5\).png");
+    margin-left: 1.3em;
+    box-shadow: 10px 10px 24px 0px #00000080;
+  }
+  .search_page_navbar button {
+    border-radius: 5px;
+    width: 20%;
+    margin-right: 1.7em;
+    margin-left: -0.5em;
+    height: 50%;
+    margin-top: 10px;
+  }
+}
+/* Search page Fixtures */
+
+.Search_fixtures {
+  display: flex;
+}
+
+.search_standings {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.search_fixtures h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.Search_fixtures_home_image {
+  position: absolute;
+  width: 70px;
+  height: auto;
+  margin-left: 600px;
+  margin-top: 25px;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .search_fixtures h3 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .Search_fixtures_home_image {
+    position: absolute;
+    width: 30px;
+    margin-top: 12px;
+    margin-left: 110px;
+  }
+}
+.Search_fixtures_home {
+  position: absolute;
+  margin-left: 340px;
+  margin-top: 42px;
+  font-size: 25px;
+}
+
+.Search_away_logo {
+  position: absolute;
+  left: 1060px;
+  width: 70px;
+  height: auto;
+  margin-top: -45px;
+}
+.Search_away {
+  position: absolute;
+  left: 1160px;
+  margin-top: -30px;
+  font-weight: 700;
+  font-size: 25px;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .Search_away_logo {
+    position: absolute;
+    left: 238px;
+    width: 30px;
+    height: auto;
+    margin-top: 10px;
+  }
+  .Search_away {
+    position: absolute;
+    left: 280px;
+    margin-top: 14px;
+    font-weight: 700;
+  }
+}
+.Search_fixtures_scoreboard {
+  background-color: transparent;
+  border: 3px solid black;
+  width: 88px;
+  height: 60px;
+  display: flex;
+  position: relative;
+  bottom: -26px;
+  left: 805px;
+}
+.Search_fixtures_scoreboard p {
+  position: relative;
+  font-size: 30px;
+  margin: auto;
+  font-weight: bold;
+}
+
+.Search_vertical_line {
+  border-left: 3px solid gray;
+  height: 45px;
+  margin-left: 9px;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+.Search_goals_away {
+  right: 4px;
+}
+.Search_fixtures_venue_icon {
+  position: absolute;
+  left: 1490px;
+  margin-top: -33px;
+  width: 50px;
+  height: auto;
+}
+.Search_fixtures_venue_name {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: -25px;
+  position: absolute;
+  margin-left: 1550px;
+}
+
+.Search_fixtures_line {
+  margin-top: 120px;
+  width: 100%;
+  right: 20px;
+  position: relative;
+}
+@media (min-width: 320px) and (max-width: 999px) {
+  .Search_fixtures_line {
+    margin-top: 0px;
+  }
+}
+.Saved_Games_delete {
+  position: absolute;
+  font-size: 30px;
+  margin-top: 45px;
+  left: 19px;
+}
